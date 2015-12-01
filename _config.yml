@@ -1,0 +1,61 @@
+name: 'The Training Set'
+description: 'Live from the train between Baltimore and DC'
+meta_description: 'Your New Jekyll Site, Blogging about stuffs'
+domain_name:				'http://localhost:4000'
+base_url:           /
+
+excerpt_separator: ""
+excerpt:  asdf;alskdfjasd
+
+
+#domain_name:              http://www.thetrainingset.com
+#url:              http://jtelszasz.github.io/blog_project
+url:               http://localhost:4000
+markdown: kramdown
+highlighter: pygments
+logo: false
+paginate: 15
+#permalink:   /:categories/:title
+#domain_name: 'http://yourblog-domain.com'
+google_analytics: 'UA-58835878-1'
+
+# Details for the RSS feed generator
+# Owner/author information
+owner:
+  name:           Justin Elszasz
+  avatar:         bio-photo.jpg
+  bio:            'Engineering background, indeterminate foreground.'
+  email:          thetrainingset@gmail.com
+  # Social networking links are used in author-bio sidebar. Update and remove as you like.
+  twitter:        thetrainingset
+  # facebook:       jtelszasz
+  github:         jtelszasz
+  linkedin:       justinelszasz
+  instagram:      
+  lastfm:         
+  tumblr:      
+
+# Links to include in top navigation
+# For external links add external: true
+links:
+  - title: Home
+    url: 
+  - title: About
+    url: /about/
+  - title: Articles
+    url: /tags/
+  - title: The Work
+    url: /the-work/
+  - title: My Electricity Use
+    url: /my-elec-use/
+  - title: Subscribe
+    url: /subscribe/
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: true
+
+gems: [jekyll-paginate]
